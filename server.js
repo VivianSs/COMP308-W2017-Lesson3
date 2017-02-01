@@ -2,7 +2,18 @@ const express = require('express');
 
 const app = express();
 
-app.listen(3000);
+const localport = 3000;
+
+
+
+/**
+ * Get port from environment and store in Express
+ */
+let port = process.env.PORT || localport;
+app.set('port', port);
+
+
+app.listen(port);
 console.log('Server running at http://localhost:3000/');
 
 
