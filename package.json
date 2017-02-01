@@ -1,5 +1,5 @@
 {
-  "name": "comp308-lesson2",
+  "name": "comp308-lesson3",
   "version": "1.0.0",
   "description": "NodeJs",
   "main": "server.js",
@@ -11,6 +11,24 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
+
+
+  "engines": {
+    "node": ">=6.0.0",
+    "npm": ">=3.5.0"
+  },
+
   "author": "Sisi",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VivianSs/COMP308-W2017-Lesson3.git"
+  },
+  "keywords": [
+    "ExpressJs"
+  ],
+  "bugs": {
+    "url": "https://github.com/VivianSs/COMP308-W2017-Lesson3/issues"
+  },
+  "homepage": "https://github.com/VivianSs/COMP308-W2017-Lesson3#readme"
 }
